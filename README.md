@@ -66,3 +66,11 @@ hs-source-dirs : src
 ```
 nameOfFunction param1 param2 = bodyOfFunction
 ```
+* How to declare the Type that a function can receive
+```
+(+++) :: [Integer] -> [Integer] -> [Integer] 
+lst1 +++ lst2 = bodyOfFunction -- We are defining with infix notation)
+
+sumChars :: [Char] -> [Char] -> [Char]
+sumChars param1 param2 = bodyOfFunction
+```
